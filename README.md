@@ -25,9 +25,16 @@ Create a function that converts any currency from the below list to any other cu
 
 Extend the given /converter endpoint to accept the following params (these will be provided in the query format, e.g `<url>?param1=a&param2=b` etc)
 
+
 valueToExchange - This will be numeric
+
+
 currencyFrom - One of the 3 digit currency codes above
+
+
 currencyTo - One of the 3 digit currency codes above
+
+
 
 These params should then be used to call your function from task 2 and return an json object like the below:
 
